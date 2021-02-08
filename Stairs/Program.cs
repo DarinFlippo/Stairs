@@ -19,7 +19,14 @@ namespace Stairs
 					int numStairs;
 					if (int.TryParse(args[0], out numStairs))
 					{
-						Console.WriteLine($"There are {CalculateWays(numStairs)} combinations of 1 or 2 steps for {numStairs} stairs.");
+						if (numStairs > 0)
+						{
+							Console.WriteLine($"There are {CalculateWays(numStairs)} combinations of 1 or 2 steps for {numStairs} stairs.");
+						}
+						else
+						{
+							Console.WriteLine(_inputError);
+						}
 					}
 					else
 					{
