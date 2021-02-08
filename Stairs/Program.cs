@@ -2,9 +2,9 @@
 
 namespace Stairs
 {
-	class StairsProblem
+	class Stairs
 	{
-		private const string _inputError = "Please provide a positive integer for the number of stairs.  Ex. StairsProblem.exe 123";
+		private const string _inputError = "Please provide a positive integer for the number of stairs.  Ex. Stairs.exe 123";
 
 		/// <summary>
 		/// Program entry point.
